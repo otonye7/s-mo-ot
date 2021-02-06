@@ -9,6 +9,10 @@ export const AboutContainer = styled.div`
 
   .about-photo {
       width: 40%;
+
+      @media screen and (max-width: 800px) {
+         width: 100%;
+      }
   }
 
   .description {
@@ -22,6 +26,11 @@ export const AboutContainer = styled.div`
   .overall-container {
       display: flex;
       justify-content: space-around;
+
+      @media screen and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+      }
   }
 
   .description-container {
