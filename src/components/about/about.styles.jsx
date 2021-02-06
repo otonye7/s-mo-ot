@@ -35,6 +35,11 @@ export const AboutContainer = styled.div`
 
   .description-container {
      width: 50%;
+
+     @media screen and (max-width: 800px) {
+        width: 100%;
+        margin: 0 auto;
+      }
   }
 
   img {
