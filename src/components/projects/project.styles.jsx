@@ -57,8 +57,12 @@ width: 100%;
 }
 
 img {
-    width: 40%;
+    width: 100%;
     height: auto;
+
+    @media screen and (max-width: 800px) {
+        width: 40%;
+}
 }
   
 `;

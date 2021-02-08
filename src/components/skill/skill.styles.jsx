@@ -34,14 +34,14 @@ export const SkillContainer = styled.div`
       display: flex;
       justify-content: space-around;
       margin-top: 40px;
-      width: 100%;
-      justify-content: center;
-      text-align: center;
 
       @media screen and (max-width: 800px) {
         display: flex;
         flex-direction: column;
         width: 100%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
       }
   }
 
@@ -103,8 +103,12 @@ export const SkillContainer = styled.div`
 
 
   img {
-    width: 40%;
+    width: 100%;
     height: auto;
+
+    @media screen and (max-width: 800px) {
+        width: 40%;
+}
 }
 }
 `;
