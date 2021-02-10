@@ -3,6 +3,9 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {AboutContainer } from './about.styles';
 import Personal from  '../../assets/Thinkstock-programmer.jpg';
+import Linkedin from  '../../assets/linkedin.svg';
+import Twitter from  '../../assets/twitter.svg';
+import Github from  '../../assets/github.svg';
 
 
 const About = () => {
@@ -28,6 +31,20 @@ const About = () => {
             California. I graduated with an Associate's degree in Web Publishing from American Public University.
             I worked for a small medical supplier as a Web Developer and I am currently learning in becoming a self-taught MERN Full Stack Web Developer.
         </div>
+        <div className='contacts'>
+                <div className='twitter'>
+                    <img src={Twitter} alt="" />
+                </div>
+
+                <div className='linkedin'>
+                    <img src={Linkedin} alt="" />
+                </div>
+
+                <div className='linkedin'>
+                    <img src={Github} alt="" />
+                </div>
+
+            </div>
         </div>
         </div>
         </div>

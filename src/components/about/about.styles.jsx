@@ -42,6 +42,41 @@ export const AboutContainer = styled.div`
       }
   }
 
+  .contacts {
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+  }
+
+  .linkedin {
+      width: 10%;
+      cursor: pointer;
+      height: auto;
+
+
+       @media screen and (max-width: 800px) {
+        width: 10%;
+        
+      }
+  }
+
+  .twitter {
+      width: 10%;
+      cursor: pointer;
+      height: auto;
+
+      @media screen and (max-width: 800px) {
+        width: 10%;
+      }
+  }
+
+ 
   img {
     width: 100%;
     height: auto;
