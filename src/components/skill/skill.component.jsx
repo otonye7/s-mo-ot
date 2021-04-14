@@ -26,12 +26,12 @@ const Skill = () => {
         <div data-aos='fade-right' className='skills'>
             <div className='html'>
               <img src={Html} alt="" />
-               <h3>Html5</h3>
+               <h3  className='texxt'>Html5</h3>
            </div>
 
             <div data-aos='fade-right' className='css'>
               <img src={Css} alt="" />
-              <h3>Css3</h3>
+              <h3  className='texxt'>Css3</h3>
             </div>
 
             <div data-aos='fade-right' className='javascript'>
@@ -40,20 +40,20 @@ const Skill = () => {
             </div>
         </div>
 
-        <div className='skillset'>
+        <div data-aos='fade-right' className='skillset'>
            <div  className='python'>
                <img src={python} alt="" />
-               <h3>Python</h3>
+               <h3 className='texxt'>Python</h3>
             </div>
 
             <div className='react'>
                <img src={react} alt="" />
-               <h3>React</h3>
+               <h3  className='texxt'>React</h3>
             </div>
 
             <div  className='github'>
                <img src={Github} alt="" />
-               <h3>Github</h3>
+               <h3  className='texxt'>Github</h3>
             </div>
         </div>
     </SkillContainer>  

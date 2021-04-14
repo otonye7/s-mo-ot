@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 
 export const AboutContainer = styled.div`
-  width: 100%;
-  margin-top: 80px;
+  width:  1300px;
+  
   display: flex;
   justify-content: space-between;
 
@@ -21,6 +21,10 @@ export const AboutContainer = styled.div`
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px
+    font-size: 16px;
+    line-height: 1.65;
+    font-family: "Open Sans", sans-serif;
+     color: #222;
   }
 
   .overall-container {
@@ -42,37 +46,44 @@ export const AboutContainer = styled.div`
       }
   }
 
+  .about-me-text {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222;
+  }
+
   .contacts {
-      width: 30%;
+      width: 20%;
       display: flex;
       justify-content: space-between;
 
       @media screen and (max-width: 800px) {
-        width: 100%;
+        width: 40%;
         display: flex;
         justify-content: space-between;
       }
   }
 
   .linkedin {
-      width: 10%;
+      width: 20px;
       cursor: pointer;
       height: auto;
 
 
        @media screen and (max-width: 800px) {
-        width: 10%;
+        width: 20px;
         
       }
   }
 
   .twitter {
-      width: 10%;
+      width: 20px;
       cursor: pointer;
       height: auto;
 
       @media screen and (max-width: 800px) {
-        width: 10%;
+        width: 20px;
       }
   }
 

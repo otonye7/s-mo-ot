@@ -14,9 +14,22 @@ const Homepage = () => {
            <div>
               <Header />
               <Hero />
-              <About />
-              <Skill />
-              <Project />
+              <br />
+              <br />
+            <div className='about'>
+               <About />
+            </div>
+            <br />
+            <br />
+            <div className='skills'>
+               <Skill />
+            </div>
+            <br />
+            <br />
+            <div className='projects'>
+               <Project />
+            </div>
+              
               <Footer />
             </div>
             </HomepageContainer> 

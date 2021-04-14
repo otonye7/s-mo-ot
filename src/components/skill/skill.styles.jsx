@@ -5,12 +5,10 @@ export const SkillContainer = styled.div`
   width: 100%;
   margin-top: 30px;
   background-color: #f2f2f2;
-
   @media screen and (max-width: 800px) {
         margin: 0 auto;
       }
  
-
  .skill-title {
      display: flex;
      justify-content: center;
@@ -19,7 +17,6 @@ export const SkillContainer = styled.div`
   .skills {
       display: flex;
       justify-content: space-around;
-
       @media screen and (max-width: 800px) {
         display: flex;
         flex-direction: column;
@@ -29,12 +26,10 @@ export const SkillContainer = styled.div`
       }
       
   }
-
   .skillset {
       display: flex;
       justify-content: space-around;
       margin-top: 40px;
-
       @media screen and (max-width: 800px) {
         display: flex;
         flex-direction: column;
@@ -45,67 +40,56 @@ export const SkillContainer = styled.div`
       }
   }
 
+  .texxt {
+    padding-left: 1.5rem;
+  }
   .html {
-      width: 5%;
+      width: 7%;
       height: auto;
-
       @media screen and (max-width: 800px) {
         width: 100%;
       }
       
   }
-
   .css {
-      width: 5%;
+      width: 7%;
       height: auto;
-
       @media screen and (max-width: 800px) {
         width: 100%;
       }
      
   }
-
   .javascript {
-      width: 5%;
+      width: 7%;
       height: auto;
-
       @media screen and (max-width: 800px) {
         width: 100%;
       }
   }
-
   .python {
-      width: 5%;
+      width: 7%;
       height: auto;
-
       @media screen and (max-width: 800px) {
         width: 100%;
       }
   }
-
   .react {
-      width: 5%;
+      width: 7%;
       height: auto;
-
       @media screen and (max-width: 800px) {
         width: 100%;
       }
   }
-
   .github {
-      width: 5%;
+      width: 7%;
       height: auto;
-
       @media screen and (max-width: 800px) {
         width: 100%;
       }
   }
-
-
   img {
     width: 100%;
     height: auto;
-
     @media screen and (max-width: 800px) {
         width: 40%;
 }

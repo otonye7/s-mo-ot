@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
   width: 100%;
-  height: 100%;
   background-color: black;
 
   @media screen and (max-width: 800px) {
@@ -21,6 +20,10 @@ export const FooterContainer = styled.div`
       display: flex;
       justify-content: center;
       color: white;
+      font-family: "Raleway", san-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    color: white;
 
       @media screen and (max-width: 800px) {
         display: flex;

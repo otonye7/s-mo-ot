@@ -23,7 +23,7 @@ const About = () => {
          
         <div className='description-container'>
         <div className='about-me'>
-            <h1>About Me</h1>
+            <h1 className='about-me-text'>About Me</h1>
 
         <div className='description'>
             Front End Web Developer
