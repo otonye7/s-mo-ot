@@ -16,7 +16,7 @@ const Footer = () => {
     <FooterContainer>
         <div className='container'>
             <div className='message'>
-                <h3>Coded by Amietubodie Collins Otonye © 2021</h3>
+                <h3 className='text'>Coded by Otonye</h3>
             </div>
 
             

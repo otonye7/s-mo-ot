@@ -12,8 +12,13 @@ export const FooterContainer = styled.div`
 
 
 
-  .container {
-     
+  .text {
+     text-align: center;
+     font-size: 15px;
+     line-height: 1.65;
+     font-family: "Open Sans", sans-serif;
+     color: white;
+}
   }
 
   .message {

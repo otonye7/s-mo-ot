@@ -42,6 +42,10 @@ export const SkillContainer = styled.div`
 
   .texxt {
     padding-left: 1.5rem;
+
+      @media screen and (max-width: 800px) {
+        padding-left: 0rem;
+      }
   }
   .html {
       width: 7%;
@@ -91,7 +95,7 @@ export const SkillContainer = styled.div`
     width: 100%;
     height: auto;
     @media screen and (max-width: 800px) {
-        width: 40%;
+        width: 20%;
 }
 }
 }

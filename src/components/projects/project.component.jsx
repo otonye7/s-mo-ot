@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {ProjectContainer } from './project.styles';
-import Meal from  '../../assets/beer.png';
-import Podradio from  '../../assets/podradio.jpg';
-import Food from  '../../assets/foody.png';
+import  { Link} from 'react-router-dom';
+import Sports from  '../../assets/men.png';
+
 
 
 
@@ -23,17 +23,14 @@ const Project = () => {
 
             <div className='image-container'>
 
-                <div className='image-one'>
-                   <img src={Meal} alt="" />
-                </div>
-
-                <div className='image-two'>
-                   <img src={Podradio} alt="" />
-                </div>
-
-                <div className='image-three'>
-                   <img src={Food} alt="" />
-                </div>
+              
+            <Link to='samo-sports.netlify.app' class="card">
+               <img src={Sports} alt="Avatar" />
+            <div class="container">
+               <h3 className='text'>S^MO SPORTS</h3>
+                <span className='span'>An E-commerce website built with react, redux, styled components and firebase</span>
+            </div>
+           </Link>
 
 
             </div>

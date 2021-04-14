@@ -29,8 +29,12 @@ const Homepage = () => {
             <div className='projects'>
                <Project />
             </div>
+            <br />
+            <br />
+            <div>
+               <Footer />
+            </div>
               
-              <Footer />
             </div>
             </HomepageContainer> 
 	);

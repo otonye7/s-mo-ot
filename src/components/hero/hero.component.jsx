@@ -15,7 +15,7 @@ const Hero = () => {
 
                 <div className='hero-text'>
                     <h1 className='name-text'>Hi, I'm Otonye</h1>
-                    <h1 className='front-text'>Frontend Developer web developer / Data Analyst with experience in :</h1>
+                    <h1 className='front-text'>Software developer / Data Analyst with experience in :</h1>
                     <div className='typewriter'>
                     <Typewriter 
                        onInit={(typewriter) => {
