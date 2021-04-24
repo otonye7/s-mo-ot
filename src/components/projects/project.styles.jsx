@@ -11,8 +11,9 @@ width: 100%;
 }
 
 .image-container {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 
     @media screen and (max-width: 767px) {
         width: 100%;
@@ -27,14 +28,14 @@ width: 100%;
 
 .card {
   /* Add shadows to create the "card" effect */
-  width: 30%;
+  width: 100%;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin-left: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-right: 1rem;
-  height: 20rem;
+  height: auto;
   border-radius: 5px;
   text-decoration: none;
 

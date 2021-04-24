@@ -41,7 +41,7 @@ export const AboutContainer = styled.div`
      width: 50%;
 
      @media screen and (max-width: 800px) {
-        width: 100%;
+        width: 96%;
         margin: 0 auto;
       }
   }

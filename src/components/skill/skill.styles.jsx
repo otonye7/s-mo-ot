@@ -5,7 +5,7 @@ export const SkillContainer = styled.div`
   width: 100%;
   margin-top: 30px;
   background-color: #f2f2f2;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 767px) {
         margin: 0 auto;
       }
  
@@ -17,7 +17,7 @@ export const SkillContainer = styled.div`
   .skills {
       display: flex;
       justify-content: space-around;
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 767px) {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -30,7 +30,7 @@ export const SkillContainer = styled.div`
       display: flex;
       justify-content: space-around;
       margin-top: 40px;
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 767px) {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -39,62 +39,60 @@ export const SkillContainer = styled.div`
         text-align: center;
       }
   }
-
   .texxt {
-    padding-left: 1.5rem;
-
-      @media screen and (max-width: 800px) {
+    text-align: center;
+      @media screen and (max-width: 767px) {
         padding-left: 0rem;
       }
   }
   .html {
-      width: 7%;
+      width: 12%;
       height: auto;
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 767px) {
         width: 100%;
       }
       
   }
   .css {
-      width: 7%;
+      width: 12%;
       height: auto;
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 767px) {
         width: 100%;
       }
      
   }
   .javascript {
-      width: 7%;
+      width: 12%;
       height: auto;
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 767px) {
         width: 100%;
       }
   }
   .python {
-      width: 7%;
+      width: 12%;
       height: auto;
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 767px) {
         width: 100%;
       }
   }
   .react {
-      width: 7%;
+      width: 12%;
       height: auto;
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 767px) {
         width: 100%;
       }
   }
   .github {
-      width: 7%;
+      width: 12%;
       height: auto;
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 767px) {
         width: 100%;
       }
   }
   img {
     width: 100%;
     height: auto;
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 767px) {
         width: 20%;
 }
 }

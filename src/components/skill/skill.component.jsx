@@ -36,7 +36,7 @@ const Skill = () => {
 
             <div data-aos='fade-right' className='javascript'>
                <img src={Javascript} alt="" />
-               <h3>Javascript</h3>
+               <h3 className='texxt'>Javascript</h3>
             </div>
         </div>
 

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {AboutContainer } from './about.styles';
-import Personal from  '../../assets/geek.png';
+import Personal from  '../../assets/pro.gif';
 import Linkedin from  '../../assets/linkedin.svg';
 import Twitter from  '../../assets/twitter.svg';
 import Github from  '../../assets/github.svg';
