@@ -2,99 +2,56 @@ import styled from 'styled-components';
 
 
 export const SkillContainer = styled.div`
-  width: 100%;
-  margin-top: 30px;
+  max-width: 1300px;
+  width: 98%;
+  height: 20rem;
+  /* max-height: 30rem; */
+  margin: 0 auto;
   background-color: #f2f2f2;
-  @media screen and (max-width: 767px) {
-        margin: 0 auto;
-      }
- 
- .skill-title {
-     display: flex;
-     justify-content: center;
- }
- 
-  .skills {
-      display: flex;
-      justify-content: space-around;
-      @media screen and (max-width: 767px) {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-      }
-      
-  }
-  .skillset {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 40px;
-      @media screen and (max-width: 767px) {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-      }
-  }
-  .texxt {
-    text-align: center;
-      @media screen and (max-width: 767px) {
-        padding-left: 0rem;
-      }
-  }
-  .html {
-      width: 12%;
-      height: auto;
-      @media screen and (max-width: 767px) {
-        width: 100%;
-      }
-      
-  }
-  .css {
-      width: 12%;
-      height: auto;
-      @media screen and (max-width: 767px) {
-        width: 100%;
-      }
-     
-  }
-  .javascript {
-      width: 12%;
-      height: auto;
-      @media screen and (max-width: 767px) {
-        width: 100%;
-      }
-  }
-  .python {
-      width: 12%;
-      height: auto;
-      @media screen and (max-width: 767px) {
-        width: 100%;
-      }
-  }
-  .react {
-      width: 12%;
-      height: auto;
-      @media screen and (max-width: 767px) {
-        width: 100%;
-      }
-  }
-  .github {
-      width: 12%;
-      height: auto;
-      @media screen and (max-width: 767px) {
-        width: 100%;
-      }
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10rem;
+
+ @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+    height: 60rem;
+    padding-left: 9rem;
+}
+
+.text {
+  text-align: center;
+} 
+
+.first-container {
+  width: 20%;
+}
+
+.second-image {
+  width: 20%;
+}
+
+.third-image {
+  width: 20%;
+}
+
+.fourth-image {
+  width: 20%;
+}
+
+.fifth-image {
+  width: 20%;
+}
+
+.sixth-image {
+  width: 20%;
+}
+
+
   img {
     width: 100%;
     height: auto;
-    @media screen and (max-width: 767px) {
-        width: 20%;
 }
-}
-}
+  
 `;

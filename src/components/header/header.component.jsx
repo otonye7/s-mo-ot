@@ -6,7 +6,7 @@ import { HeaderContainer } from './header.styles';
 const Header = () => (
     <HeaderContainer>
         <div className='header-logo'>
-            <h2>S^MO-OT.DEV</h2>
+            <h2 className='header'>S^MO-OT.DEV</h2>
 
             <div className='nav-links'>
                 <Link className='link-con'>

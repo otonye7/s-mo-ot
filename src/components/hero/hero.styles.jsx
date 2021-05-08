@@ -1,95 +1,68 @@
 import styled from 'styled-components';
-import Hero from  '../../assets/dark.jpg';
+// import Hero from  '../../assets/headerimage.svg';
 
 
 export const HeroContainer = styled.div`
-   width: 1350px;
-    position: relative;
+max-width: 1350px;
+/* position: relative; */
+width: 98%;
+height: 100%;
+margin: 0 auto;
 
- height: 35rem;
- background-color: #F2F2F2;
- display: flex;
- justify-content: center;
- margin: 0 auto;
- @media screen and (max-width: 769px){
-      height: 100%;
-      width: 100%;
-}
 
 .hero-container {
-    width:100%;
-    height: 35rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+   @media screen and (max-width: 800px) {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
 }
- .image {
-    position: relative;
+
+.hero-text {
+   /* position: absolute; */
+   z-index: 1;
+}
+
+.name-text {
+   font-size: 27px;
+   display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.65;
+    font-family: 'Poppins';
+    color: rgb(215, 64, 52);
+}
+
+.front-text {
+   font-size:25px;
+   display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.65;
+    font-family: 'Poppins';
+    color: rgb(215, 64, 52);
+}
+
+.typewriter {
+   font-size: 25px;
+   display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.65;
+    font-family: 'Poppins';
+    color: rgb(215, 64, 52);
+}
+
+img {
     width: 100%;
-    height: 100%;
-    background-image: url(${Hero});
-    background-position: center;
-    background-size: cover;
-    @media screen and (max-width: 767px){
-      width: 100%;
-      height: 35rem;
+    height: auto;
 }
-   }
-   
-    .hero-container {
-        position: relative;
-    }
-
-
-   .hero-text {
-        position: absolute;
-        top: 0;
-        left: 105px;
-        margin-top: 80px;
-
-@media screen and (max-width: 767px){
-      left: 20px;
-}
-   }
-
-   .name-text {
-    font-size: 46px;
-    font-weight: 900;
-    color: #fff;
-    font-family: "Raleway", san-serif;
-
-}
-   }
-
-   .front-text {
-      color: white;
-    font-size: 25px;
-    font-weight: 500;
-
-     @media screen and (max-width: 800px) {
-        font-size: 20px;
-       font-weight: 500;
-      }
-   }
-
-   .about-text {
-       color: white;
-   }
-
-   .typewriter {
-      color: white;
-    font-size: 25px;
-    font-weight: 500;
-
-     @media screen and (max-width: 800px) {
-        font-size: 20px;
-       font-weight: 500;
-      }
-   }
-
-   .name-text {
-       color: white;
-   }
-
-   .work-text {
-       color: white;
-   }
-
 `;

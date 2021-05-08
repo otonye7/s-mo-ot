@@ -10,6 +10,7 @@ import react from  '../../assets/react.svg';
 import Github from  '../../assets/github.svg';
 
 
+
 const Skill = () => {
 
     useEffect(() => (
@@ -17,45 +18,42 @@ const Skill = () => {
     ), [])
 
     return(
-    <SkillContainer>
+    <SkillContainer data-aos='fade-right'>
 
-        <div  className='skill-title'>
+        {/* <div  className='skill-title'>
             <h3>Skills</h3>
-        </div>
+        </div> */}
 
-        <div data-aos='fade-right' className='skills'>
-            <div className='html'>
-              <img src={Html} alt="" />
-               <h3  className='texxt'>Html5</h3>
-           </div>
-
-            <div data-aos='fade-right' className='css'>
-              <img src={Css} alt="" />
-              <h3  className='texxt'>Css3</h3>
+           <div className='first-container'>
+                <img src={Html} alt="" />
+                <h5 className='text'>Html</h5>
             </div>
 
-            <div data-aos='fade-right' className='javascript'>
-               <img src={Javascript} alt="" />
-               <h3 className='texxt'>Javascript</h3>
+            <div className='second-image'>
+                <img src={Css} alt="" />
+                <h5 className='text'>Css</h5>
             </div>
-        </div>
-
-        <div data-aos='fade-right' className='skillset'>
-           <div  className='python'>
-               <img src={python} alt="" />
-               <h3 className='texxt'>Python</h3>
+            
+            <div className='third-image'>
+                <img src={Javascript} alt="" />
+                <h5 className='text'>javaScript</h5>
             </div>
 
-            <div className='react'>
-               <img src={react} alt="" />
-               <h3  className='texxt'>React</h3>
+            <div className='fourth-image'>
+                <img src={python} alt="" />
+                <h5 className='text'>python</h5>
             </div>
 
-            <div  className='github'>
-               <img src={Github} alt="" />
-               <h3  className='texxt'>Github</h3>
+            <div className='fifth-image'>
+                <img src={react} alt="" />
             </div>
-        </div>
+
+            <div className='sixth-image'>
+                <img src={Github} alt="" />
+                <h5 className='text'>Github</h5>
+            </div>
+
+        
     </SkillContainer>  
     )   
 }; 
