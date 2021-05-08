@@ -9,4 +9,9 @@ export const HomepageContainer = styled.div`
         justify-content: center;
     }
 
+     .projects {
+        display: flex;
+        justify-content: center;
+    } 
+
 `;

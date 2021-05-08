@@ -32,9 +32,11 @@ const About = () => {
 
 
              <div className='description'>
-             Hi! I am Amietubodie Collins Otonye. A software developer. I can build fully customized professional websites and mobile applications which provides engaging user experience; like blogs or e-commerce stores, to name a few.
-             To find out more about me, what services I can offer, see my work below.
-        </div>    
+               Software developer with some years of experience in  developing websites and mobile applications. 
+               I know many programming paradigms. Object-oriented programming and functional programming
+               I'm pretty good with code investigation and debugging. In my architectural designs i always
+               follow best pratices and write clean and readable codes  
+            </div>    
        
         <div className='contacts'>
                 <div className='twitter'>

@@ -2,17 +2,22 @@ import styled from 'styled-components';
 
 
 export const HeaderContainer = styled.div`
-   width: 100%;
+   max-width: 1300px; 
+   width: 98%;
+   margin: 0 auto;
    display: flex;
    justify-content: space-between;
    background-color: white;
+   
+
   
 
    .header-logo {
        font-family: 'Poppins';
        color: rgb(215, 64, 52);
+       /* max-width: 1300px; */
        width: 98%;
-       margin: 0 auto;
+       margin: auto 0;
        display: flex;   
        justify-content: space-between;
     }

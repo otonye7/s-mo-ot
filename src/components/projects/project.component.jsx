@@ -34,7 +34,7 @@ const Project = () => {
            </Link>
            <br />
            <br />
-           <Link to='https://samo-sports.netlify.app' class="card">
+           <Link to='samo-sports.netlify.app' class="card">
                <img src={Mercedes} alt="Avatar" />
             <div class="container">
                <h3 className='text'>Mercedez Tales</h3>

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
 width: 100%;
+margin: 0 auto;
 
 .projects-title {
     display: flex;
@@ -13,7 +14,11 @@ width: 100%;
 .image-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    justify-content: center;
+    max-width: 1300px;
+    width: 98%;
+    margin: 0 auto;
+   
 
     @media screen and (max-width: 767px) {
         width: 100%;
@@ -25,10 +30,9 @@ width: 100%;
 }
 
 
-
 .card {
   /* Add shadows to create the "card" effect */
-  width: 100%;
+  width: 500px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin-left: 1rem;
@@ -48,9 +52,11 @@ width: 100%;
 }
 }
 
-.container {
+
+
+/* .container {
   padding: 2px 16px;
-}
+} */
 
 .text {
      font-size: 19px;

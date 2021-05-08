@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 export const HeroContainer = styled.div`
-max-width: 1350px;
+max-width: 1300px;
 /* position: relative; */
 width: 98%;
 height: 100%;
