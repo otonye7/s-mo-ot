@@ -15,6 +15,18 @@ const About = () => {
         Aos.init({duration: 2000})
     ), [])
 
+    const route = () => {
+        window.location.href = 'https://github.com/otonye7'
+    }
+
+    const routeTwo = () => {
+        window.location.href = 'https://www.linkedin.com/in/otonye-amietubodie-ab7a6518a/'
+    }
+
+    const routeThree = () => {
+        window.location.href = 'https://twitter.com/lifeof_gaus'
+    }
+
     return(
     <AboutContainer>
         <div data-aos='fade-up' className='overall-container'>
@@ -39,15 +51,15 @@ const About = () => {
             </div>    
        
         <div className='contacts'>
-                <div className='twitter'>
+                <div onClick={routeThree} className='twitter'>
                     <img src={Twitter} alt="" />
                 </div>
 
-                <div className='linkedin'>
+                <div onClick={routeTwo} className='linkedin'>
                     <img src={Linkedin} alt="" />
                 </div>
 
-                <div className='linkedin'>
+                <div onClick={route} className='linkedin'>
                     <img src={Github} alt="" />
                 </div>
 

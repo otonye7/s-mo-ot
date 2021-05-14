@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {ProjectContainer } from './project.styles';
-import  { Link} from 'react-router-dom';
 import Sports from  '../../assets/men.png';
 import Mercedes from  '../../assets/mercedes.png';
+import Adams from  '../../assets/adams.png';
 
 
 
@@ -14,6 +14,18 @@ const Project = () => {
     useEffect(() => (
         Aos.init({duration: 2000})
     ), [])
+
+    const route = () => {
+        window.location.href = 'https://samo-sports.netlify.app'
+    }
+
+    const routeTwo = () => {
+        window.location.href = 'https://mercedes-tales.netlify.app'
+    }
+
+    const routeThree = () => {
+        window.location.href = 'https://adam-eats.netlify.app'
+    }
 
     return(
     <ProjectContainer>
@@ -25,22 +37,32 @@ const Project = () => {
             <div className='image-container'>
 
               
-            <Link to='samo-sports.netlify.app' class="card">
+            <div onClick={route} class="card">
                <img src={Sports} alt="Avatar" />
             <div class="container">
                <h3 className='text'>S^MO SPORTS</h3>
-                <span className='span'>An E-commerce website built with react, redux, styled components and firebase</span>
+                <span className='span'>An E-commerce website built with react, redux, styled components, stripe and firebase</span>
             </div>
-           </Link>
+           </div>
+
            <br />
            <br />
-           <Link to='samo-sports.netlify.app' class="card">
+
+           <div onClick={routeTwo}  class="card">
                <img src={Mercedes} alt="Avatar" />
             <div class="container">
                <h3 className='text'>Mercedez Tales</h3>
                 <span className='span'>A Single page application built with react and styled components </span>
             </div>
-           </Link>
+           </div>
+
+           <div onClick={routeThree} class="card">
+               <img src={Adams} alt="Avatar" />
+            <div class="container">
+               <h3 className='text'>Adams Eats</h3>
+                <span className='span'>Adams Eats is an iphone gallery built with react and styled components </span>
+            </div>
+           </div>
 
 
             </div>
