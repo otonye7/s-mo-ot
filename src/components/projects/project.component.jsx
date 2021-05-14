@@ -56,6 +56,9 @@ const Project = () => {
             </div>
            </div>
 
+           <br />
+           <br />
+
            <div onClick={routeThree} class="card">
                <img src={Adams} alt="Avatar" />
             <div class="container">
