@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Parallax from 'react-rellax';
 import {AboutContainer } from './about.styles';
 import Personal from  '../../assets/Services.svg';
 import Linkedin from  '../../assets/linkedin.svg';
@@ -31,9 +30,8 @@ const About = () => {
     <AboutContainer>
         <div data-aos='fade-up' className='overall-container'>
          <div  className='about-photo'>
-         <Parallax speed={-2.3}>
+
              <img src={Personal} alt="" />
-        </Parallax>
             
         </div>
          

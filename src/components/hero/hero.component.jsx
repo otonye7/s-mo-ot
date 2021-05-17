@@ -2,7 +2,7 @@ import React from 'react';
 import { HeroContainer } from './hero.styles';
 import Typewriter from 'typewriter-effect';
 import First from  '../../assets/headerimage.svg';
-import Parallax from 'react-rellax';
+
 
 
 
@@ -36,9 +36,7 @@ const Hero = () => {
 
         
         <div className='image'>
-           <Parallax speed={10}>
                 <img src={First} alt="" />
-           </Parallax>
          </div>
 
         </div>

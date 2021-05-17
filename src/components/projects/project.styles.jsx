@@ -13,7 +13,7 @@ margin: 0 auto;
 
 .image-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     max-width: 1300px;
     width: 98%;
