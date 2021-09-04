@@ -6,6 +6,7 @@ import Skill from '../../components/skill/skill.component';
 import { HomepageContainer } from './homepage.styles';
 import Project from '../../components/projects/project.component';
 import Footer from '../../components/footer/footer.component';
+import Color from '../../components/color/color.component';
 
 const Homepage = () => {
 
@@ -14,6 +15,7 @@ const Homepage = () => {
            <div>
               <Header />
               <Hero />
+              <Color/>
               <br />
               <br />
             <div className='about'>

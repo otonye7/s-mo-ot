@@ -3,51 +3,33 @@ import styled from 'styled-components';
 
 export const SkillContainer = styled.div`
   max-width: 1300px;
-  width: 98%;
-  height: 20rem;
-  /* max-height: 30rem; */
-  margin: 0 auto;
-  background-color: #f2f2f2;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  padding-left: 10rem;
+  width: 100%;
 
- @media screen and (max-width: 800px) {
-    grid-template-columns: 1fr;
-    height: 60rem;
-    padding-left: 9rem;
-}
+  .container {
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
 
-.text {
-  text-align: center;
-} 
+    @media screen and (max-width: 800px) {
+      grid-template-columns: 1fr;
+   }
+  }
 
-.first-container {
-  width: 20%;
-}
+  .image {
+    /* border: 2px solid red; */
+    width: 40%;
+    margin: 0 auto;
 
-.second-image {
-  width: 20%;
-}
-
-.third-image {
-  width: 20%;
-}
-
-.fourth-image {
-  width: 20%;
-}
-
-.fifth-image {
-  width: 20%;
-}
-
-.sixth-image {
-  width: 20%;
-}
-
+    @media screen and (max-width: 800px) {
+      width: 100%;
+   }
+  }
+/*   
+  .first-container {
+    border: 2px solid red;
+    width: 30%;
+  } */
 
   img {
     width: 100%;

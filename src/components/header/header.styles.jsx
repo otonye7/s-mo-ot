@@ -27,6 +27,16 @@ export const HeaderContainer = styled.div`
         font-weight: 600;
     }
 
+    
+  .border {
+      border-bottom: 2px solid #D8D8DE;
+      border: 2px solid red;
+      /* opacity: 0.8; */
+   @media screen and (max-width: 767px){
+      /* padding-top: 0.5rem; */
+   }
+  }
+
     .nav-links {
         padding-top: 1.5rem;
     }

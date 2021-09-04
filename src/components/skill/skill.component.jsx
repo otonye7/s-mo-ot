@@ -2,12 +2,12 @@ import React , { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {SkillContainer } from './skill.styles';
-import Html from  '../../assets/html.svg';
-import Css from  '../../assets/css3.svg';
-import Javascript from  '../../assets/javascript.svg';
-import python from  '../../assets/python.svg';
-import react from  '../../assets/react.svg';
-import Github from  '../../assets/github.svg';
+import Html from  '../../assets/html.jpg';
+import Css from  '../../assets/css.png';
+import Javascript from  '../../assets/js.png';
+// import python from  '../../assets/python.png';
+import react from  '../../assets/react.png';
+// import Github from  '../../assets/github.svg';
 
 
 
@@ -18,41 +18,24 @@ const Skill = () => {
     ), [])
 
     return(
-    <SkillContainer data-aos='fade-right'>
-
-        {/* <div  className='skill-title'>
-            <h3>Skills</h3>
-        </div> */}
-
-           <div className='first-container'>
+    <SkillContainer >
+          <div className='container'>
+           <div className='image'>
                 <img src={Html} alt="" />
-                <h5 className='text'>Html</h5>
             </div>
 
-            <div className='second-image'>
+            <div className='image'>
                 <img src={Css} alt="" />
-                <h5 className='text'>Css</h5>
             </div>
             
-            <div className='third-image'>
+            <div className='image'>
                 <img src={Javascript} alt="" />
-                <h5 className='text'>javaScript</h5>
             </div>
 
-            <div className='fourth-image'>
-                <img src={python} alt="" />
-                <h5 className='text'>python</h5>
-            </div>
-
-            <div className='fifth-image'>
+            <div className='image'>
                 <img src={react} alt="" />
             </div>
-
-            <div className='sixth-image'>
-                <img src={Github} alt="" />
-                <h5 className='text'>Github</h5>
-            </div>
-
+        </div>
         
     </SkillContainer>  
     )   

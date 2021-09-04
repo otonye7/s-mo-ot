@@ -2,61 +2,31 @@ import styled from 'styled-components';
 
 
 export const ProjectContainer = styled.div`
+ max-width: 1350px;
 width: 100%;
 margin: 0 auto;
 
+
+.card {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+      grid-template-columns: 1fr;
+}
+}
+
+.overall {
+  @media screen and (max-width: 800px) {
+     margin-top: 1rem;
+}
+} 
 .projects-title {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-
-.image-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    max-width: 1300px;
-    width: 98%;
-    margin: 0 auto;
-   
-
-    @media screen and (max-width: 767px) {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-}
-}
-
-
-.card {
-  /* Add shadows to create the "card" effect */
-  width: 500px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  height: auto;
-  border-radius: 5px;
-  text-decoration: none;
-
-@media screen and (max-width: 767px) {
-        width: 100%;
-        margin-left: 0rem;
-        margin-top: 0rem;
-        margin-bottom: 0rem;
-        margin-right: 0rem;
-}
-}
-
-
-
-/* .container {
-  padding: 2px 16px;
-} */
 
 .text {
      font-size: 19px;
@@ -77,7 +47,7 @@ img {
     width: 100%;
     height: auto;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 800px) {
         width: 100%;
 }
 }

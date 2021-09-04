@@ -21,12 +21,16 @@ margin: 0 auto;
 }
 
 .hero-text {
-   /* position: absolute; */
+   width: 80%;
+   margin: 0 auto;
    z-index: 1;
+   @media screen and (max-width: 800px) {
+      width: 100%;
+  }
 }
 
 .name-text {
-   font-size: 27px;
+   font-size: 35px;
    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -38,7 +42,7 @@ margin: 0 auto;
 }
 
 .front-text {
-   font-size:25px;
+   font-size:30px;
    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -50,7 +54,7 @@ margin: 0 auto;
 }
 
 .typewriter {
-   font-size: 25px;
+   font-size: 32px;
    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;

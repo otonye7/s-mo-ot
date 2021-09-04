@@ -4,9 +4,16 @@ import styled from 'styled-components';
 export const AboutContainer = styled.div`
   max-width:  1300px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 2rem;
+  
+
+  .overall-container {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* padding-top: 2rem; */
   .about-photo {
       width: 40%;
       @media screen and (max-width: 800px) {
