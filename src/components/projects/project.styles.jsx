@@ -17,6 +17,13 @@ margin: 0 auto;
 }
 }
 
+.project-text {
+     font-family: 'Poppins';
+     color: black;
+     text-align: center;
+     font-size: 25px;
+}
+
 .overall {
   @media screen and (max-width: 800px) {
      margin-top: 1rem;

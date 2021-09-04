@@ -36,8 +36,10 @@ const Project = () => {
 
     return(
     <ProjectContainer data-aos='fade-left'>
+      <div className='projects'>
+        <h1 className='project-text'>Projects</h1>
+      </div>
        <div className='card'>
-
        <Card className={classes.root} variant="outlined">
         <div onClick={routeThree} className='overall'>
                <img src={Adams} alt="Avatar" />

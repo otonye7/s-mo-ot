@@ -18,7 +18,10 @@ const Skill = () => {
     ), [])
 
     return(
-    <SkillContainer >
+    <SkillContainer data-aos='fade-right'>
+        <div className='projects'>
+        <h1 className='project-text'>Skills</h1>
+      </div>
           <div className='container'>
            <div className='image'>
                 <img src={Html} alt="" />

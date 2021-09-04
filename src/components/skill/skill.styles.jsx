@@ -16,6 +16,15 @@ export const SkillContainer = styled.div`
    }
   }
 
+
+  
+.project-text {
+     font-family: 'Poppins';
+     color: black;
+     text-align: center;
+     font-size: 25px;
+}
+
   .image {
     /* border: 2px solid red; */
     width: 40%;
